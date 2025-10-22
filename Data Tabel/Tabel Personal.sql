@@ -6,11 +6,11 @@ CREATE TABLE Personal (
   JK varchar(1) NULL,
   Unit varchar(10) NULL,
   Tgl_Masuk smalldatetime NULL,
-  Klasifikasi1 varchar(10) NULL,
-  Klasifikasi2 varchar(10) NULL,
+  Klasifikasi1 varchar(50) NULL,
+  Klasifikasi2 varchar(50) NULL,
   Status varchar(10) NULL,
   Alamat varchar(100) NULL,
   Identitas varchar(50) NULL,
   Picture image NULL,
-  Sisa int NULL
+  NoTelp varchar(12) NULL
 );
