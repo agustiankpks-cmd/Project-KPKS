@@ -12,5 +12,5 @@ CREATE TABLE Personal (
   Alamat varchar(100) NULL,
   Identitas varchar(50) NULL,
   Picture image NULL,
-  NoTelp varchar (12)
+  NoTelp varchar (12) NULL  
 );
