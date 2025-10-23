@@ -11,6 +11,5 @@ CREATE TABLE Personal (
   Status varchar(10) NULL,--berisi aktif dan non aktif --tool combobobox---cmbStatus
   Alamat varchar(100) NULL, --tool yang dipakai txtAlamat
   Identitas varchar(50) NULL, ----tool yang dipakai txtIdentitas
-  Picture image NULL,
   NoTelp varchar (12) NULL ----------tool yang dipakai txtNoTelp
 );
